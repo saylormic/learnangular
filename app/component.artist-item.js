@@ -24,7 +24,7 @@ System.register(['@angular/core'], function(exports_1, context_1) {
                 ArtistItemComponent = __decorate([
                     core_1.Component({
                         selector: 'artist-item',
-                        template: 'partials/artist-item.html',
+                        templateUrl: 'partials/artist-item.html',
                         styleUrls: ['css/artist-item.css'],
                         inputs: ['artist']
                     }), 
