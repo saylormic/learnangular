@@ -1,3 +1,4 @@
+import { SearchPipe } from './pipe.search';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
@@ -11,7 +12,7 @@ import { ArtistDetailsComponent } from './component.artist-details';
     BrowserModule, FormsModule
   ],
   declarations: [
-    AppComponent, ArtistItemComponent, ArtistDetailsComponent
+    AppComponent, ArtistItemComponent, ArtistDetailsComponent, SearchPipe
   ],
   bootstrap: [
     AppComponent
