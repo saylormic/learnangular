@@ -1,3 +1,4 @@
+import { ArtistItemComponent } from './component.artist-item';
 import { Component } from '@angular/core';
 
 export class Artist {
